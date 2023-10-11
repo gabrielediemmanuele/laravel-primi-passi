@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('homepage');
 })->name('homepage');
 
-Route::get('/', function () {
+Route::get('/features', function () {
     return view('features');
 })->name('features');
