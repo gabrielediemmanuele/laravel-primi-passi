@@ -13,7 +13,12 @@
     <header>
         @include('partials.navbar')
     </header>
-    <h1>Welcome to Laravel Hell</h1>
+    <div class="container mt-2">
+        <h1>Welcome to Laravel</h1>
+        <h6 class="text-danger">Click logo and go to our website!</h6>
+        <div><a href="https://laravel.com/"><img src="https://pbs.twimg.com/profile_images/1163911054788833282/AcA2LnWL_400x400.jpg" alt="Laravel Logo"></a></div>
+        
+    </div>
 </body>
 
 </html>
